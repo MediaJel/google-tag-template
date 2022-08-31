@@ -1,5 +1,5 @@
 homepage: "https://www.mediajel.com/"
 documentation: "https://github.com/MediaJel/mediajel-tracker#readme"
 versions:
-  - sha: 79fbdafdf9021dd0b0149d9663a71a52c6fa81d7
+  - sha: 6d7a679f4f10deab2cddaab0fed62377aedba249
     changeNotes: Initial release.
