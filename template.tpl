@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -14,7 +14,11 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Mediajel - Ecommerce Attribution",
-  "categories": ["AFFILIATE_MARKETING", "ADVERTISING", ATTRIBUTION],
+  "categories": [
+    "AFFILIATE_MARKETING",
+    "ADVERTISING",
+    "ATTRIBUTION"
+  ],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -155,7 +159,7 @@ const appId = data.appId;
 const retailId = data.retailId ? '&retailId='+data.retailId : '';
 const environment = data.environment ? '&environment='+data.environment:'';
 const version = data.version ? '&version='+data.version : '';
-const otherParams = data.otherParams;
+const otherParams = data.otherParams ? data.otherParams : '';
 const url = 'https://tags.cnna.io/?'+'appId='+appId+retailId+environment+version+otherParams;
 
 const log = logToConsole;
